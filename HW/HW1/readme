@@ -1,1 +1,9 @@
-sort a int array[]
+Create a header file and a .cc file containing the implementation of the overloaded C++ functions:
+
+void cmpe180ASort(int a[], int sz);
+
+void cmpe180ASort(char c[], int sz);
+
+DO NOT ADD ANY main(), the grader will implement the main and the code that uses your function, use any type of sort algorithm you want.
+
+THIS ASSIGNMENT IS ONLINE SUBMISSION ONLY. MUST INCLUDE NAME AND STUDENT ID IN ALL FILES WITHIN C++ COMMENTS
