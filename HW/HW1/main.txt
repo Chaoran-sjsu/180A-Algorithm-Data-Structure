@@ -1,0 +1,15 @@
+# include "cmpe180ASort.h"
+
+
+void verifySorted(int a[], int sz){
+
+}
+int main(){
+int your_grade = 0;
+int a1[] = {4,5,3,7,0};
+cmpe180ASort(a1, sizeof(a1)/sizeof(int));
+if (verifySorted(a1,sz)){
+your_grade += 10;
+
+}
+}
