@@ -26,7 +26,7 @@ Create the class BigInt and overload the following operators:
 
 >>
 
-Support a constructor that creates the big int given a vector of digits (int or char), a C array of characters and a size. The idea is to create a class that can take any size of integer by keeping the individual digits in a a vector 
+Support a constructor that creates the big int given a vector of digits (int or char), a C array of characters and a size. The idea is to create a class that can take any size of integer by keeping the individual digits in a vector 
 
 You must support negative numbers: on a char array it is trivial how to do this: '-' must appear before a negative number, when using a vector with integers you can use negative integer to represent the sign at the start of the big int
 
