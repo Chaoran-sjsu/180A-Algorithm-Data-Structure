@@ -1,1 +1,21 @@
-mcp copy source file to target file.
+File Multiplier:
+
+In this project you will implement a file copy command that will take as a command line argument which is the name of an existing file and the name of a file or multiple files 
+on where the original file will be copied. You must use C++ fsstreams for this project. You must check for basic errors like the source file not existing and the target files 
+already existing and provide used with proper error message in stderr.
+
+Your submission will contain main as it is a self contained program and will be turned in via a single file named mcp.cc.
+
+Your executable must be invoked as:
+
+mcp -s source_file_name -t target_file_name
+
+In this case source_file_name will be copied into target_file_name
+
+You can also create multiple target files with the following invocation:
+
+mcp -s source_file_name -t target_file_name -t target_file_name_1 -t target_file_name2
+
+Your program must check that when there are multiple targets they have different names.
+
+The file content may be anything: ASCII or binary
