@@ -1,1 +1,5 @@
-merge two vectors
+Design a function that merges two sorted integer vectors:
+
+vector<int> mergeVectors(const vector<int> &a, const vector<int> &b);
+
+The output of your function must be another sorted vector that contains all the elements of vector a and vector b.
