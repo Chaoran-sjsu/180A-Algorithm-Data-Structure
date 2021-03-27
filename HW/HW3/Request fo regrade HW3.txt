@@ -1,0 +1,15 @@
+1.-Chaoran Lei. March 2nd. Homework 3.
+
+2.-
+I fogot to include std namespace in my header file.
+Please add this at the top of the mergeStrings.h
+
+   using std::string;
+or 
+   using namespace std;
+
+
+Thank you
+
+
+3.-I will try my best to prevent this kind of issue in the future. 
