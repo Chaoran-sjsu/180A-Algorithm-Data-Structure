@@ -1,1 +1,9 @@
-merge two strings.
+Design a function that merges two given strings and returns the merged version as follows:
+
+string mergeStrings(const string &a, const string &b);
+
+a = "abc"
+
+b="def"
+
+result = "adbecf"
