@@ -1,1 +1,28 @@
-distance between two points. XYPoint class was already built.
+Create an overloaded function that computes the distance between 2, 3, 4 or 5 points
+
+class XYPoint {
+
+public:
+
+int x;
+
+int y;
+
+XYPoint(int xc, int yc) : x(xc), y(yc) {}
+
+};
+
+ 
+
+float distance(XYPoint p1, XYPoint p2); 
+
+...
+
+float distance(XYPoint p1, ...XYPoint p5);
+
+ 
+
+distance is computed as two-d distance between points and added : distance{p1-p2} + distance{p2-p3} + distance{p3-p4}
+
+IMPORTANT: you are only to "create the overloaded function(s)" as stated in the first line of this assignment, DO NOT add any main(), 
+we will use your function from our own main and test it from there. If you add a main and the program does not compile when we try to test you will receive zero credit.
