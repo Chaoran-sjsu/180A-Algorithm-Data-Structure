@@ -1,0 +1,26 @@
+Asteroid Problem
+
+You have a number of asteroids aligned in a line with a space station to the right. All asteroids are
+travelling at the same speed but they me be travelling either left or right. Asteroids also have an
+associated mass in addition to their travel direction of left or right. The laws that govern the asteroid
+collisions are as follows: if two asteroids collide the one with larger mass vaporizes the smaller one and
+continues travelling in it original direction and at the same speed. You are asked to implement a
+function that takes a vector of asteroids (aligned left to right) and produces the count of asteroids hits
+your space station will take. Examples of inputs are displayed next:
+
+(A1:m=10,d=right); (A2:m=11,d=left); (A3:m=11,d=right);(A4:m=5,d=left)=========➔ Space Station
+
+For the example above the result will be 1 hit: A2 destroys A1 and keeps travelling left, A3 destroys A4
+and eventually hist the space station
+
+(A1:m=10,d=right); (A2:m=11,d=right); (A3:m=11,d=right)=========➔ Space Station
+
+For the second example, the result is 3 hits as all asteroids travel right one after the other and hit the
+space station
+
+Write the function to count hits in your favorite language and run a number of test cases through it.
+
+Determine space and time complexity of your solution
+
+int countHits( std::vector<Asteroid> a) {
+}
